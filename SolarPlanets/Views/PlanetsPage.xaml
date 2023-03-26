@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SolarPlanets.Views.PlanetsPage"
+             Title="Planets Page">
+
+    <Grid>
+        
+        <!--Menu grid-->
+        <Grid
+            x:Name="MenuContainer">
+
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#666666" Offset="0.0" />
+                    <GradientStop Color="#000000" Offset="1.0" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GridArea_Tapped" />
+            </Grid.GestureRecognizers>
+
+            <VerticalStackLayout
+                Margin="0,52,24,0"
+                HorizontalOptions="End"
+                Spacing="20">
+
+                <Label
+                    Text="MENU"
+                    Style="{StaticResource PageHeaderStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 1 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 2 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 3 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 4 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 5 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 6 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+            </VerticalStackLayout>
+            
+        </Grid>
+
+        <!--Main Content-->
+        <Grid
+            x:Name="MainContentGrid"
+            Padding="24,52,24,0"
+            BackgroundColor="{StaticResource PageBackgroundColor}"
+            ColumnDefinitions="*,auto"
+            RowDefinitions="Auto,*">
+
+            <VerticalStackLayout
+                Spacing="4"
+                Grid.Row="0"
+                Grid.Column="0"
+                VerticalOptions="Center">
+                
+                <Label
+                    Text="Let's Explore"
+                    Style="{StaticResource PageHeaderStyle}" />
+
+                <Label
+                    Text="The milky way galaxy"
+                    Style="{StaticResource PageHeaderSubtitleStyle}" />
+                
+            </VerticalStackLayout>
+
+        </Grid>
+        
+        <!--Main Content ScrollView-->
+        <ScrollView
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalScrollBarVisibility="Never"
+            VerticalScrollBarVisibility="Never"
+            Margin="0,32,-24,0">
+
+            <VerticalStackLayout
+                Spacing="12">
+                
+                <!--Search Box-->
+                <Border
+                    Padding="12,4"
+                    BackgroundColor="{StaticResource SearchBoxColor}"
+                    Stroke="{StaticResource BorderColor}"
+                    HorizontalOptions="Fill"
+                    Margin="0,0,24,0"
+                    HeightRequest="48">
+                    
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="6"/>
+                    </Border.StrokeShape>
+
+                    <Grid
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Center"
+                        ColumnDefinitions="Auto,*"
+                        ColumnSpacing="16">
+
+                        <Image 
+                            WidthRequest="18"
+                            HeightRequest="18"
+                            Source="imgsearch.png"
+                            Grid.Column="0"
+                            VerticalOptions="Center" />
+
+                        <Label
+                            Text="Search for your favorite planet"
+                            Grid.Column="1"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
+                            Style="{StaticResource MenuLabelStyle}" />
+
+                    </Grid>
+                    
+                </Border>
+                
+            </VerticalStackLayout>
+            
+        </ScrollView>
+        
+    </Grid>
+
+</ContentPage>
