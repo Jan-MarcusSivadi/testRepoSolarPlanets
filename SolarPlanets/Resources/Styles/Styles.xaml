@@ -23,7 +23,27 @@
         <Setter Property="FontFamily" Value="MediumFont" />
     </Style>
 
-    
+    <Style TargetType="Label" x:Key="FeaturedPlanetHeaderStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="FeaturedPlanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="AllPlanetHeaderStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="AllPlanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+
     <!--Labels-->
 
     <Style TargetType="Label" x:Key="IntroPageTextStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">

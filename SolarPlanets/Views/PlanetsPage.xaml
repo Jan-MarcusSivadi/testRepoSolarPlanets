@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:SolarPlanets.Models"
              x:Class="SolarPlanets.Views.PlanetsPage"
              Title="Planets Page">
 
     <Grid>
-        
+
         <!--Menu grid-->
         <Grid
             x:Name="MenuContainer">
@@ -62,35 +63,72 @@
                     HorizontalOptions="End" />
 
             </VerticalStackLayout>
-            
+
         </Grid>
 
         <!--Main Content-->
+
         <Grid
             x:Name="MainContentGrid"
             Padding="24,52,24,0"
             BackgroundColor="{StaticResource PageBackgroundColor}"
-            ColumnDefinitions="*,auto"
+            ColumnDefinitions="*,Auto"
             RowDefinitions="Auto,*">
 
             <VerticalStackLayout
-                Spacing="4"
+               Spacing="4"
                 Grid.Row="0"
                 Grid.Column="0"
                 VerticalOptions="Center">
-                
-                <Label
-                    Text="Let's Explore"
-                    Style="{StaticResource PageHeaderStyle}" />
 
                 <Label
-                    Text="The milky way galaxy"
-                    Style="{StaticResource PageHeaderSubtitleStyle}" />
-                
+                    Style="{StaticResource PageHeaderStyle}"
+                    Text="Let's Explore" />
+
+                <Label
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    Text="The milky way galaxy" />
+
             </VerticalStackLayout>
 
+            <!--Api main Picture-->
+            <Border
+                WidthRequest="70"
+                HeightRequest="70"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                Stroke="{StaticResource LightBorderColor}"
+                StrokeThickness="6"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="0,0">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="28"/>
+                </Border.StrokeShape>
+
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ProfilePicture_Clicked" />
+                </Border.GestureRecognizers>
+
+                <Image
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    Source="planet123.png">
+                    <Image.Clip>
+                        <EllipseGeometry
+                            Center="30,30"
+                            RadiusX="64"
+                            RadiusY="64" />
+                    </Image.Clip>
+                </Image>
+
+            </Border>
+
         </Grid>
-        
+
         <!--Main Content ScrollView-->
         <ScrollView
             Grid.Row="1"
@@ -98,11 +136,14 @@
             Grid.ColumnSpan="2"
             HorizontalScrollBarVisibility="Never"
             VerticalScrollBarVisibility="Never"
+            HorizontalOptions="Center"
             Margin="0,32,-24,0">
 
             <VerticalStackLayout
-                Spacing="12">
-                
+                Spacing="12"
+                HorizontalOptions="Center"
+                Margin="32,110,32,0">
+
                 <!--Search Box-->
                 <Border
                     Padding="12,4"
@@ -111,7 +152,7 @@
                     HorizontalOptions="Fill"
                     Margin="0,0,24,0"
                     HeightRequest="48">
-                    
+
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="6"/>
                     </Border.StrokeShape>
@@ -137,13 +178,233 @@
                             Style="{StaticResource MenuLabelStyle}" />
 
                     </Grid>
-                    
+
                 </Border>
                 
+                <!--Most popular Section-->
+                <Label
+                    Style="{StaticResource PageSubHeaderStyle}"
+                    Margin="0,12,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Most Popular   " />
+                            <Span Text="→" FontSize="20" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <CollectionView
+                    x:Name="lstpopularPlanets"
+                    HeightRequest="280"
+                    SelectionMode="Single"
+                    SelectionChanged="Planets_SelectionChanged">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout
+                            Orientation="Horizontal"
+                            ItemSpacing="16" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate
+                            x:DataType="models:Planet">
+                            <Border
+                                VerticalOptions="Fill"
+                                WidthRequest="220"
+                                StrokeThickness="0"
+                                Background="{Binding Background}"
+                                Padding="20">
+
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="24" />
+                                </Border.StrokeShape>
+
+                                <Grid
+                                    RowDefinitions="*,Auto, Auto"
+                                    RowSpacing="4">
+
+                                    <Image 
+                                        Grid.Row="0"
+                                        Source="{Binding HeroImage}"
+                                        Rotation="-30" 
+                                        Aspect="AspectFill" 
+                                        VerticalOptions="Fill"
+                                        HorizontalOptions="Fill" />
+
+                                    <Label
+                                        Grid.Row="1"
+                                        Style="{StaticResource FeaturedPlanetHeaderStyle}"
+                                        Margin="0,8,0,0"
+                                        Text="{Binding Name}" />
+
+                                    <Label
+                                        Grid.Row="2"
+                                        Style="{StaticResource FeaturedPlanetHeaderSubtitleStyle}" 
+                                        Text="{Binding Subtitle}" />
+                                </Grid>
+
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+                </CollectionView>
+
+                <Label
+                    Style="{StaticResource PageSubHeaderStyle}"
+                    Margin="0,12,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="You may also like   " />
+                            <Span Text="→" FontSize="20" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <CollectionView
+                    x:Name="lstAllPlanets"
+                    HeightRequest="160"
+                    SelectionMode="Single"
+                    SelectionChanged="Planets_SelectionChanged">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout
+                            Orientation="Horizontal"
+                            ItemSpacing="16" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate
+                            x:DataType="models:Planet">
+                            <Border
+                                VerticalOptions="Fill"
+                                WidthRequest="140"
+                                StrokeThickness="0"
+                                Background="{Binding Background}" 
+                                Padding="16">
+
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+
+                                <Grid
+                                    RowDefinitions="*,Auto,Auto"
+                                    RowSpacing="4">
+
+                                    <Image
+                                        Grid.Row="0"
+                                        Source="{Binding HeroImage}"
+                                        Rotation="-30"
+                                        Aspect="AspectFill"
+                                        VerticalOptions="Fill"
+                                        HorizontalOptions="Fill" />
+
+                                    <Label
+                                        Grid.Row="1"
+                                        Style="{StaticResource AllPlanetHeaderStyle}"
+                                        Text="{Binding Name}"
+                                        Margin="0,4,0,0" />
+                                    
+                                </Grid>
+                                
+                            </Border>
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    
+                </CollectionView>
+                
             </VerticalStackLayout>
-            
+
         </ScrollView>
-        
+
+        <Border
+            Padding="16,0"
+            BackgroundColor="#393965"
+            Stroke="{StaticResource BorderColor}"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            Margin="20,0,20,20"
+            HeightRequest="90"
+            Grid.Column="0"
+            Grid.ColumnSpan="2">
+
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="45"/>
+            </Border.StrokeShape>
+
+            <Grid
+                HorizontalOptions="Fill"
+                VerticalOptions="Center"
+                RowDefinitions="Auto,Auto"
+                ColumnDefinitions="*,*,*"
+                RowSpacing="6">
+
+                <!--<Border
+                    Padding="20"
+                    BackgroundColor="Black"
+                    Stroke="{StaticResource BorderColor}"
+                    HorizontalOptions="Fill"
+                    Margin="0,0,0,0">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="45"/>
+                    </Border.StrokeShape>
+                </Border>-->
+                <Image 
+                    WidthRequest="30"
+                    HeightRequest="30"
+                    Source="imgexplore.png"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"/>
+                <Label
+                    Text="Explore"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    Style="{StaticResource MenuLabelStyle}" />
+
+                <Image
+                    WidthRequest="30"
+                    HeightRequest="30"
+                    Source="imgfavorite.png"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HorizontalOptions="Center" />
+                <Label
+                    Text="Favorite"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Style="{StaticResource MenuLabelStyle}"/>
+
+                <Image
+                    WidthRequest="42"
+                    HeightRequest="42"
+                    Margin="-42,-12,-42,-12"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Source="planet123.png"
+                    HorizontalOptions="Center">
+                    <Image.Clip>
+                        <EllipseGeometry
+                            Center="21,21"
+                            RadiusX="42"
+                            RadiusY="42" />
+                    </Image.Clip>
+                </Image>
+                
+                <Label
+                    Text="Profile"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    Style="{StaticResource MenuLabelStyle}" />
+
+
+            </Grid>
+            
+        </Border>
+
     </Grid>
 
 </ContentPage>

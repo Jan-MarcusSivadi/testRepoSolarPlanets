@@ -1,1 +1,1 @@
-D:\Dev Projects\School\TARpe21SolarPlanets\SolarPlanets\SolarPlanets\SolarPlanets.csproj;x64
+D:\Dev Projects\School\spl\SolarPlanets\SolarPlanets.csproj;x64

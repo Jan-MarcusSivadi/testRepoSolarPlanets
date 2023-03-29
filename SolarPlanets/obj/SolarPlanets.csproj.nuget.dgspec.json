@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev Projects\\School\\TARpe21SolarPlanets\\SolarPlanets\\SolarPlanets\\SolarPlanets.csproj": {}
+    "D:\\Dev Projects\\School\\spl\\SolarPlanets\\SolarPlanets.csproj": {}
   },
   "projects": {
-    "D:\\Dev Projects\\School\\TARpe21SolarPlanets\\SolarPlanets\\SolarPlanets\\SolarPlanets.csproj": {
+    "D:\\Dev Projects\\School\\spl\\SolarPlanets\\SolarPlanets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev Projects\\School\\TARpe21SolarPlanets\\SolarPlanets\\SolarPlanets\\SolarPlanets.csproj",
+        "projectUniqueName": "D:\\Dev Projects\\School\\spl\\SolarPlanets\\SolarPlanets.csproj",
         "projectName": "SolarPlanets",
-        "projectPath": "D:\\Dev Projects\\School\\TARpe21SolarPlanets\\SolarPlanets\\SolarPlanets\\SolarPlanets.csproj",
+        "projectPath": "D:\\Dev Projects\\School\\spl\\SolarPlanets\\SolarPlanets.csproj",
         "packagesPath": "C:\\Users\\Jinglex\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev Projects\\School\\TARpe21SolarPlanets\\SolarPlanets\\SolarPlanets\\obj\\",
+        "outputPath": "D:\\Dev Projects\\School\\spl\\SolarPlanets\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
