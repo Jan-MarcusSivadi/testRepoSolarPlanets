@@ -43,16 +43,6 @@
         <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
     </Style>
 
-    <!--gg-->
-    <Style TargetType="Label" x:Key="PlanetDetailsDescriptionStyle">
-        <Setter Property="LineBreakMode" Value="WordWrap" />
-        <Setter Property="FontAutoScalingEnabled" Value="False" />
-        <Setter Property="FontFamily" Value="RegularFont" />
-        <Setter Property="FontSize" Value="14" />
-        <Setter Property="MaximumWidthRequest" Value="700" />
-        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
-    </Style>
-
 
     <!--Labels-->
 
@@ -80,6 +70,16 @@
     <Style TargetType="Label" x:Key="MenuLabelStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
         <Setter Property="FontSize" Value="14" />
         <Setter Property="TextColor" Value="#CCCCCC" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="PlanetHeaderStyle" BasedOn="{StaticResource BaseBoldLabelStyle}">
+        <Setter Property="FontSize" Value="48" />
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="PlanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
     </Style>
 
 

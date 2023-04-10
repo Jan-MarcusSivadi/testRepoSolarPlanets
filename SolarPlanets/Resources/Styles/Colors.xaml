@@ -7,6 +7,7 @@
     <!--Colors-->
     <Color x:Key="FrameBackgroundColor">#F1EFF0</Color>
     <Color x:Key="BorderColor">Transparent</Color>
+    <Color x:Key="LigthBorderColor">#d5d5d5</Color>
     <Color x:Key="DarkTextColor">#252525</Color>
     <Color x:Key="ButtonBackgroundColor">#eb5757</Color>
     <Color x:Key="LightTextColor">#d5d5d5</Color>

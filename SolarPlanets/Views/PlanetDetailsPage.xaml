@@ -49,20 +49,41 @@
                     HeightRequest="240"
                     Margin="24,0" />
 
+                <!--Planet Name-->
                 <Label
-                    Text="{Binding Name}"
-                    FontSize="28"
-                    Style="{StaticResource AllPlanetHeaderStyle}"/>
+                    Margin="0,-24,0,0"
+                    Style="{StaticResource AllPlanetHeaderSubtitleStyle}"
+                    Text="{Binding Name}" />
+
+                <!--Planet Subtitle-->
+                <Label
+                    Margin="0,-12,0,0"
+                    Style="{StaticResource PlanetHeaderSubtitleStyle}"
+                    Text="{Binding Subtitle}" />
+
+                <!--Divider-->
+                <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}" />
+                
+                <!--Planet info-->
+                <Label
+                    Style="{StaticResource PlanetDetailsTextStyle}"
+                    Text="{Binding Description}" />
+
+                <!--Divider-->
+                <Rectangle
+                    HorizontalOptions="Fill"
+                    HeightRequest="2"
+                    Stroke="Transparent"
+                    Fill="{StaticResource LightBorderColor}" />
 
                 <Label
-                    Text="{Binding Subtitle}"
-                    Margin="0,-10"
-                    Style="{StaticResource AllPlanetHeaderSubtitleStyle}"/>
+                    Style="{StaticResource PlanetHeaderStyle}"
+                    Text="Gallery" />
 
-                <Label
-                    Text="{Binding Description}"
-                    Margin="10,20"
-                    Style="{StaticResource PlanetDetailsDescriptionStyle}"/>
 
             </VerticalStackLayout>
         </ScrollView>
