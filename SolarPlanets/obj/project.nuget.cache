@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AV34V9TclEtR8WBolDBxIo40Bw3CPLb8JNVQ5zSA8X36IW5mfVybGh9gpiZQP5RZHliqjg1krHGEt3Tit8LYLA==",
+  "dgSpecHash": "DMdhK3M3Y5Wkw2IZm4FJ+9NEMqGljnyjkrTHwtbygm2J/OU993pyhXoD1Bp0MpNav4CNGL8wuN3x8YfchYKlqg==",
   "success": true,
-  "projectFilePath": "D:\\Dev Projects\\School\\spl\\SolarPlanets\\SolarPlanets.csproj",
+  "projectFilePath": "D:\\Dev Projects\\School\\old\\spl\\SolarPlanets\\SolarPlanets.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jinglex\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Jinglex\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

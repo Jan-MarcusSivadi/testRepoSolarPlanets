@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>ecf92f23-b718-49bd-97e7-2334729309cb</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Dev Projects\School\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Dev Projects\School\old\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>5044A806262A3B6A935C0B95B56D78D99E565B26A63C39C3FABD97F68E05FC9A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ecf92f23-b718-49bd-97e7-2334729309cb_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ecf92f23-b718-49bd-97e7-2334729309cb_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Dev Projects\School\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Dev Projects\School\old\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-29T13:38:27.630</Modified>
+      <Modified>2023-04-10T12:21:49.105</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-29T13:29:41.549</Modified>
+      <Modified>2023-04-10T12:07:21.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SolarPlanets.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SolarPlanets.runtimeconfig.json">
       <PackagePath>SolarPlanets.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-27T09:54:45.433</Modified>
+      <Modified>2023-04-10T10:32:38.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SolarPlanets.dll">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SolarPlanets.dll">
       <PackagePath>SolarPlanets.dll</PackagePath>
-      <Modified>2023-03-29T13:38:26.056</Modified>
+      <Modified>2023-04-10T12:21:47.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SolarPlanets.exe</PackagePath>
-      <Modified>2023-03-29T13:38:26.132</Modified>
+      <Modified>2023-04-10T12:21:47.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jinglex\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1061,9 +1061,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-09-07T21:54:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SolarPlanets.deps.json">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\SolarPlanets.deps.json">
       <PackagePath>SolarPlanets.deps.json</PackagePath>
-      <Modified>2023-03-29T13:38:27.470</Modified>
+      <Modified>2023-04-10T12:21:48.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jinglex\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1077,473 +1077,469 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-01-19T02:56:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-03-22T11:07:11.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-03-27T09:54:41.719</Modified>
+      <Modified>2023-04-10T10:28:02.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-03-27T09:54:41.735</Modified>
+      <Modified>2023-04-10T10:28:02.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-03-27T09:54:41.756</Modified>
+      <Modified>2023-04-10T10:28:02.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-03-27T09:54:41.787</Modified>
+      <Modified>2023-04-10T10:28:02.869</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-03-27T09:54:41.910</Modified>
+      <Modified>2023-04-10T10:28:02.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Bold.ttf">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Bold.ttf">
       <PackagePath>Montserrat-Bold.ttf</PackagePath>
       <Modified>2023-03-22T11:07:11.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Medium.ttf">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Medium.ttf">
       <PackagePath>Montserrat-Medium.ttf</PackagePath>
       <Modified>2023-03-22T11:07:11.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-SemiBold.ttf">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-SemiBold.ttf">
       <PackagePath>Montserrat-SemiBold.ttf</PackagePath>
       <Modified>2023-03-22T11:07:11.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-03-27T10:24:13.791</Modified>
+      <Modified>2023-04-10T10:28:03.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.012</Modified>
+      <Modified>2023-04-10T10:28:03.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.022</Modified>
+      <Modified>2023-04-10T10:28:03.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.032</Modified>
+      <Modified>2023-04-10T10:28:03.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.049</Modified>
+      <Modified>2023-04-10T10:28:03.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.116</Modified>
+      <Modified>2023-04-10T10:28:03.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.861</Modified>
+      <Modified>2023-04-10T10:28:03.146</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.862</Modified>
+      <Modified>2023-04-10T10:28:03.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.872</Modified>
+      <Modified>2023-04-10T10:28:03.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.864</Modified>
+      <Modified>2023-04-10T10:28:03.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.866</Modified>
+      <Modified>2023-04-10T10:28:03.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.848</Modified>
+      <Modified>2023-04-10T10:28:03.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.851</Modified>
+      <Modified>2023-04-10T10:28:03.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.859</Modified>
+      <Modified>2023-04-10T10:28:03.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.852</Modified>
+      <Modified>2023-04-10T10:28:03.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.854</Modified>
+      <Modified>2023-04-10T10:28:03.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.810</Modified>
+      <Modified>2023-04-10T10:28:03.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.821</Modified>
+      <Modified>2023-04-10T10:28:03.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.824</Modified>
+      <Modified>2023-04-10T10:28:03.101</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.827</Modified>
+      <Modified>2023-04-10T10:28:03.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.831</Modified>
+      <Modified>2023-04-10T10:28:03.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.833</Modified>
+      <Modified>2023-04-10T10:28:03.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.835</Modified>
+      <Modified>2023-04-10T10:28:03.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.847</Modified>
+      <Modified>2023-04-10T10:28:03.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.837</Modified>
+      <Modified>2023-04-10T10:28:03.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.840</Modified>
+      <Modified>2023-04-10T10:28:03.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.905</Modified>
+      <Modified>2023-04-10T10:28:03.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.910</Modified>
+      <Modified>2023-04-10T10:28:03.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.915</Modified>
+      <Modified>2023-04-10T10:28:03.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.922</Modified>
+      <Modified>2023-04-10T10:28:03.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.939</Modified>
+      <Modified>2023-04-10T10:28:03.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.888</Modified>
+      <Modified>2023-04-10T10:28:03.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.889</Modified>
+      <Modified>2023-04-10T10:28:03.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.892</Modified>
+      <Modified>2023-04-10T10:28:03.185</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.896</Modified>
+      <Modified>2023-04-10T10:28:03.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.902</Modified>
+      <Modified>2023-04-10T10:28:03.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.874</Modified>
+      <Modified>2023-04-10T10:28:03.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.876</Modified>
+      <Modified>2023-04-10T10:28:03.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.879</Modified>
+      <Modified>2023-04-10T10:28:03.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.880</Modified>
+      <Modified>2023-04-10T10:28:03.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.884</Modified>
+      <Modified>2023-04-10T10:28:03.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.944</Modified>
+      <Modified>2023-04-10T10:28:03.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.949</Modified>
+      <Modified>2023-04-10T10:28:03.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.956</Modified>
+      <Modified>2023-04-10T10:28:03.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.971</Modified>
+      <Modified>2023-04-10T10:28:03.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.005</Modified>
+      <Modified>2023-04-10T10:28:03.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.781</Modified>
+      <Modified>2023-04-10T10:28:03.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.800</Modified>
+      <Modified>2023-04-10T10:28:03.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.816</Modified>
+      <Modified>2023-04-10T10:28:03.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.840</Modified>
+      <Modified>2023-04-10T10:28:03.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.887</Modified>
+      <Modified>2023-04-10T10:28:03.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-100.png">
       <PackagePath>earth.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.760</Modified>
+      <Modified>2023-04-10T10:28:03.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-125.png">
       <PackagePath>earth.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.771</Modified>
+      <Modified>2023-04-10T10:28:03.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-150.png">
       <PackagePath>earth.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.779</Modified>
+      <Modified>2023-04-10T10:28:03.032</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-200.png">
       <PackagePath>earth.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.785</Modified>
+      <Modified>2023-04-10T10:28:03.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\earth.scale-400.png">
       <PackagePath>earth.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.806</Modified>
+      <Modified>2023-04-10T10:28:03.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-100.png">
       <PackagePath>icon.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.916</Modified>
+      <Modified>2023-04-10T10:28:03.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-125.png">
       <PackagePath>icon.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.079</Modified>
+      <Modified>2023-04-10T10:28:03.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-150.png">
       <PackagePath>icon.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.285</Modified>
+      <Modified>2023-04-10T10:28:03.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-200.png">
       <PackagePath>icon.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.645</Modified>
+      <Modified>2023-04-10T10:28:03.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-400.png">
       <PackagePath>icon.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:16.020</Modified>
+      <Modified>2023-04-10T10:28:05.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgback.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgback.scale-100.png">
       <PackagePath>imgback.scale-100.png</PackagePath>
       <Modified>2023-03-27T09:49:47.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgexplore.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgexplore.scale-100.png">
       <PackagePath>imgexplore.scale-100.png</PackagePath>
       <Modified>2023-03-27T09:49:47.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgfavorite.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgfavorite.scale-100.png">
       <PackagePath>imgfavorite.scale-100.png</PackagePath>
       <Modified>2023-03-27T09:49:47.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgmenu.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgmenu.scale-100.png">
       <PackagePath>imgmenu.scale-100.png</PackagePath>
       <Modified>2023-03-27T09:49:47.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgsearch.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\imgsearch.scale-100.png">
       <PackagePath>imgsearch.scale-100.png</PackagePath>
       <Modified>2023-03-27T09:49:47.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-100.png">
       <PackagePath>jupiter.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.770</Modified>
+      <Modified>2023-04-10T10:28:03.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-125.png">
       <PackagePath>jupiter.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.779</Modified>
+      <Modified>2023-04-10T10:28:03.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-150.png">
       <PackagePath>jupiter.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.788</Modified>
+      <Modified>2023-04-10T10:28:03.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-200.png">
       <PackagePath>jupiter.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.802</Modified>
+      <Modified>2023-04-10T10:28:03.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\jupiter.scale-400.png">
       <PackagePath>jupiter.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.849</Modified>
+      <Modified>2023-04-10T10:28:03.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-100.png">
       <PackagePath>mars.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.780</Modified>
+      <Modified>2023-04-10T10:28:03.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-125.png">
       <PackagePath>mars.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.788</Modified>
+      <Modified>2023-04-10T10:28:03.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-150.png">
       <PackagePath>mars.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.798</Modified>
+      <Modified>2023-04-10T10:28:03.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-200.png">
       <PackagePath>mars.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.807</Modified>
+      <Modified>2023-04-10T10:28:03.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mars.scale-400.png">
       <PackagePath>mars.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.835</Modified>
+      <Modified>2023-04-10T10:28:03.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-100.png">
       <PackagePath>mercury.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.760</Modified>
+      <Modified>2023-04-10T10:28:03.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-125.png">
       <PackagePath>mercury.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.772</Modified>
+      <Modified>2023-04-10T10:28:03.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-150.png">
       <PackagePath>mercury.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.781</Modified>
+      <Modified>2023-04-10T10:28:03.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-200.png">
       <PackagePath>mercury.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.788</Modified>
+      <Modified>2023-04-10T10:28:03.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mercury.scale-400.png">
       <PackagePath>mercury.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.808</Modified>
+      <Modified>2023-04-10T10:28:03.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-100.png">
       <PackagePath>neptune.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.771</Modified>
+      <Modified>2023-04-10T10:28:03.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-125.png">
       <PackagePath>neptune.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.779</Modified>
+      <Modified>2023-04-10T10:28:03.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-150.png">
       <PackagePath>neptune.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.790</Modified>
+      <Modified>2023-04-10T10:28:03.036</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-200.png">
       <PackagePath>neptune.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.801</Modified>
+      <Modified>2023-04-10T10:28:03.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\neptune.scale-400.png">
       <PackagePath>neptune.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.838</Modified>
+      <Modified>2023-04-10T10:28:03.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-100.png">
       <PackagePath>planet.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.810</Modified>
+      <Modified>2023-04-10T10:28:03.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-125.png">
       <PackagePath>planet.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.884</Modified>
+      <Modified>2023-04-10T10:28:03.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-150.png">
       <PackagePath>planet.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.975</Modified>
+      <Modified>2023-04-10T10:28:03.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-200.png">
       <PackagePath>planet.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.125</Modified>
+      <Modified>2023-04-10T10:28:03.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet.scale-400.png">
       <PackagePath>planet.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:14.637</Modified>
+      <Modified>2023-04-10T10:28:03.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet123.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\planet123.scale-100.png">
       <PackagePath>planet123.scale-100.png</PackagePath>
       <Modified>2023-03-27T09:37:12.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-100.png">
       <PackagePath>saturn.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.770</Modified>
+      <Modified>2023-04-10T10:28:03.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-125.png">
       <PackagePath>saturn.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.779</Modified>
+      <Modified>2023-04-10T10:28:03.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-150.png">
       <PackagePath>saturn.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.788</Modified>
+      <Modified>2023-04-10T10:28:03.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-200.png">
       <PackagePath>saturn.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.801</Modified>
+      <Modified>2023-04-10T10:28:03.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturn.scale-400.png">
       <PackagePath>saturn.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.844</Modified>
+      <Modified>2023-04-10T10:28:03.109</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\saturnapi.scale-100.png">
-      <PackagePath>saturnapi.scale-100.png</PackagePath>
-      <Modified>2023-03-27T09:37:12.747</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-100.png">
       <PackagePath>uranus.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.774</Modified>
+      <Modified>2023-04-10T10:28:03.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-125.png">
       <PackagePath>uranus.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.784</Modified>
+      <Modified>2023-04-10T10:28:03.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-150.png">
       <PackagePath>uranus.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.798</Modified>
+      <Modified>2023-04-10T10:28:03.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-200.png">
       <PackagePath>uranus.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.809</Modified>
+      <Modified>2023-04-10T10:28:03.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uranus.scale-400.png">
       <PackagePath>uranus.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.846</Modified>
+      <Modified>2023-04-10T10:28:03.103</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-100.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-100.png">
       <PackagePath>venus.scale-100.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.762</Modified>
+      <Modified>2023-04-10T10:28:03.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-125.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-125.png">
       <PackagePath>venus.scale-125.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.774</Modified>
+      <Modified>2023-04-10T10:28:03.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-150.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-150.png">
       <PackagePath>venus.scale-150.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.783</Modified>
+      <Modified>2023-04-10T10:28:03.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-200.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-200.png">
       <PackagePath>venus.scale-200.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.790</Modified>
+      <Modified>2023-04-10T10:28:03.060</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Dev Projects\School\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-400.png">
+    <AppxPackagedFile Include="D:\Dev Projects\School\old\spl\SolarPlanets\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\venus.scale-400.png">
       <PackagePath>venus.scale-400.png</PackagePath>
-      <Modified>2023-03-27T10:24:13.801</Modified>
+      <Modified>2023-04-10T10:28:03.076</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

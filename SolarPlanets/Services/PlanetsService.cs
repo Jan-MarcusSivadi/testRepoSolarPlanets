@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SolarPlanets.Models;
 
 namespace SolarPlanets.Services
 {
@@ -13,8 +12,8 @@ namespace SolarPlanets.Services
         {
             new()
             {
-                Name = "Mercury",
-                Subtitle = "The smallest planet",
+                Name = " Mercury",
+                Subtitle = "  The smallest planet",
                 HeroImage = "mercury.png",
                 Description = "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius.",
                 AccentColorStart = Color.FromArgb("#353535"),
@@ -27,8 +26,8 @@ namespace SolarPlanets.Services
                 },
             },new()
             {
-                Name = "Venus",
-                Subtitle = "The pressure cooker",
+                Name = " Venus",
+                Subtitle = "  The pressure cooker",
                 HeroImage = "venus.png",
                 Description = "Of all the planets, it's the most similar to Earth. In fact, venus is sometimes called Earth's \"sister\" or \"twin\" planet as it is almost as large and has a similar composition.",
                 AccentColorStart = Color.FromArgb("#a6393b"),
@@ -41,6 +40,103 @@ namespace SolarPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg",
                 },
             },
+            new()
+            {
+                Name = " Earth",
+                Subtitle = "  The cradle of life",
+                HeroImage = "earth.png",
+                Description = "Earth is the third planet from the Sun and the only place known in the universe where life has originated and found habitability.",
+                AccentColorStart = Color.FromArgb("#0e3d68"),
+                AccentColorEnd = Color.FromArgb("#2e97c7"),
+                Images = new()
+                {
+                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
+                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778",
+                },
+
+            },
+            new()
+            {
+                Name = " Mars",
+                Subtitle = "  The red beauty",
+                HeroImage = "mars.png",
+                Description = "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, larger only than Mercury.",
+                AccentColorStart = Color.FromArgb("#a23036"),
+                AccentColorEnd = Color.FromArgb("#eb3333"),
+                Images = new()
+                {
+                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
+                    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
+                    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg",
+                },
+
+            },
+            new()
+            {
+                Name = " Jupiter",
+                Subtitle = "  The gas giant",
+                HeroImage = "jupiter.png",
+                Description = "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun.",
+                AccentColorStart = Color.FromArgb("#9d4a40"),
+                AccentColorEnd = Color.FromArgb("#cd8026"),
+                Images = new()
+                {
+                    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg",
+                },
+
+            },
+            new()
+            {
+                Name = " Saturn",
+                Subtitle = "  The ring planet",
+                HeroImage = "saturn.png",
+                Description = "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.",
+                AccentColorStart = Color.FromArgb("#996237"),
+                AccentColorEnd = Color.FromArgb("#c6502f"),
+                Images = new()
+                {
+                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg",
+                },
+
+            },
+            new()
+            {
+                Name = " Uranus",
+                Subtitle = "  The cold ball",
+                HeroImage = "uranus.png",
+                Description = "Uranus is the seventh planet from the Sun. It is named after Greek sky deity Uranus (Caelus), who in Greek mythology is the father of Cronus (Saturn), a grandfather of Zeus (Jupiter) and great-grandfather of Ares (Mars). Uranus has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+                AccentColorStart = Color.FromArgb("#9d4a40"),
+                AccentColorEnd = Color.FromArgb("#996237"),
+                Images = new()
+                {
+                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
+                },
+
+            },
+            new()
+            {
+                Name = " Neptune",
+                Subtitle = "  The god of sea",
+                HeroImage = "neptune.png",
+                Description = "Neptune is the eighth planet fom the sun. It is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                     "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+                     "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg",
+                },
+
+            }
         };
 
         public static List<Planet> GetAllPlanets() => planets;

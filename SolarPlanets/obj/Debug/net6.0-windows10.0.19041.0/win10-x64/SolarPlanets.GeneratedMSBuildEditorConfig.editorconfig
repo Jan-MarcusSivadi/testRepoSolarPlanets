@@ -8,33 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SolarPlanets
-build_property.ProjectDir = D:\Dev Projects\School\spl\SolarPlanets\
+build_property.ProjectDir = D:\Dev Projects\School\old\spl\SolarPlanets\
 
-[D:/Dev Projects/School/spl/SolarPlanets/App.xaml]
+[D:/Dev Projects/School/old/spl/SolarPlanets/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SolarPlanets.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Dev Projects/School/spl/SolarPlanets/Resources/Styles/Colors.xaml]
+[D:/Dev Projects/School/old/spl/SolarPlanets/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SolarPlanets.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Dev Projects/School/spl/SolarPlanets/Resources/Styles/Styles.xaml]
+[D:/Dev Projects/School/old/spl/SolarPlanets/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SolarPlanets.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/Dev Projects/School/spl/SolarPlanets/Views/PlanetsPage.xaml]
+[D:/Dev Projects/School/old/spl/SolarPlanets/Views/PlanetDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SolarPlanets.Views.PlanetDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PlanetDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PlanetDetailsPage.xaml
+
+[D:/Dev Projects/School/old/spl/SolarPlanets/Views/PlanetsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SolarPlanets.Views.PlanetsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\PlanetsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\PlanetsPage.xaml
 
-[D:/Dev Projects/School/spl/SolarPlanets/Views/StartPage.xaml]
+[D:/Dev Projects/School/old/spl/SolarPlanets/Views/StartPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SolarPlanets.Views.StartPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\StartPage.xaml

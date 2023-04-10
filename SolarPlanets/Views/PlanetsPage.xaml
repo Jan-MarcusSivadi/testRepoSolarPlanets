@@ -92,7 +92,7 @@
             </VerticalStackLayout>
 
             <!--Api main Picture-->
-            <Border
+            <!--<Border
                 WidthRequest="70"
                 HeightRequest="70"
                 VerticalOptions="Center"
@@ -125,7 +125,7 @@
                     </Image.Clip>
                 </Image>
 
-            </Border>
+            </Border>-->
 
         </Grid>
 

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SolarPlanets.Views.PlanetDetailsPage"
+             Title="PlanetDetailsPage">
+
+    <Grid 
+        Margin="24,52,24,0"
+        IgnoreSafeArea="{OnPlatform Android=False, iOS=True}"
+        ColumnDefinitions="*,*"
+        RowDefinitions="Auto,*">
+
+        <ImageButton
+            WidthRequest="24"
+            HeightRequest="24"
+            Source="imgback.png"
+            Grid.Row="0"
+            Grid.Column="0"
+            HorizontalOptions="Start"
+            VerticalOptions="Center"
+            Clicked="BackButton_Clicked" />
+
+        <ImageButton
+            WidthRequest="24"
+            HeightRequest="24"
+            Source="imgmenu.png"
+            Grid.Row="0"
+            Grid.Column="1"
+            HorizontalOptions="End"
+            VerticalOptions="Center" />
+        
+        <!--Main content view-->
+        <ScrollView
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalScrollBarVisibility="Never"
+            VerticalScrollBarVisibility="Never"
+            Margin="0,16,0,0">
+
+            <VerticalStackLayout
+                Spacing="18">
+                
+                <!--Planet Image-->
+                <Image
+                    Source="{Binding HeroImage}"
+                    Aspect="AspectFit"
+                    HorizontalOptions="Fill"
+                    HeightRequest="240"
+                    Margin="24,0" />
+
+                <Label
+                    Text="{Binding Name}"
+                    FontSize="28"
+                    Style="{StaticResource AllPlanetHeaderStyle}"/>
+
+                <Label
+                    Text="{Binding Subtitle}"
+                    Margin="0,-10"
+                    Style="{StaticResource AllPlanetHeaderSubtitleStyle}"/>
+
+                <Label
+                    Text="{Binding Description}"
+                    Margin="10,20"
+                    Style="{StaticResource PlanetDetailsDescriptionStyle}"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+    
+</ContentPage>

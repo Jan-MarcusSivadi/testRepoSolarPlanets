@@ -1,12 +1,8 @@
-using SolarPlanets.Models;
-using SolarPlanets.Services;
-
 namespace SolarPlanets.Views;
 
 public partial class PlanetsPage : ContentPage
 {
 	private const uint AnimationDuration = 800u;
-	private List<Planet> myPlanets;
 
     public PlanetsPage()
 	{
@@ -43,6 +39,6 @@ public partial class PlanetsPage : ContentPage
 
     async void Planets_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-		//await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet);
+		await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
 	}
 }
